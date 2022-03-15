@@ -12,12 +12,12 @@ public class Lab06
 {
     public static void main(String[] args)
     {
-        //generating 2 random numbers and adding them together
+        //generating 2 random numbers and subtract them
         Random random = new Random();
         int a = random.nextInt(100);
         int b = random.nextInt(100);
 
-        System.out.println(a + " + " + b + " = " + (a + b));
+        System.out.println(a + " - " + b + " = " + (a - b));
 
     }
 }
